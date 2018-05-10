@@ -1,0 +1,202 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Places the background gif behind all other material */
+html{
+    background: url(hallway.gif) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Establishes style rules, width, and margin for the largest container */
+.main-container{
+    width: 80%;
+    max-width: 1080px;
+    margin: 10px auto;
+}
+
+/* Establishes the font and alignment for the h1 tag */
+h1{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* References the id="the-lights" and establishes its size and style rules */
+#the-lights{
+	  background-color:#000;
+	  height:100%;
+	  width:100%;
+	  position:absolute;
+	  top:0;
+	  left:0;
+	  display:none;
+}
+
+/* Defines the size and position of the light-off container */
+.lights-off{
+  width: 300px;
+  position: absolute;
+  top: 67%;
+  left: 27%;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* Defines the size of the light-off icon */
+.lights-off img{
+  width: 11%;
+  height: auto;
+}
+
+/* Defines the size and position of the light-on container */
+.lights-on{
+  width: 300px;
+  position: absolute;
+  top: 67%;
+  left: 27%;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* Defines the size of the light-on icon */
+.lights-on img{
+  width: 11%;
+  height: auto;
+}
+
+/* Defines the size and position of the "Hunger games" logo container */
+.main-logo{
+  width: 600px;
+  height: auto;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+}
+
+/* Defines the size of the actual "Hunger games" logo */
+.main-logo img{
+  width: 100%;
+  height: auto;
+}
+
+/* Defines the size of the iframe container */
+.full-movie{
+  width: 100%;
+}
+
+/* Defines the specific size and position of the iframe div */
+.full-movie iframe{
+  width: 640px;
+  position: absolute;
+  top: 22%;
+  left: 27%;
+}
+
+/* Defines the size, position, and font of the philosophy container */
+.philosophy{
+    width: 550px;
+    height: auto;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    text-align: center;
+}
+
+/* Defines the relative size of the gif within the philosophy container */
+.philosophy img{
+    width: 100%;
+    height: auto;
+}
+
+/* Defines the position and font of the instruction container */
+.how2eat{
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    text-align: center;
+}
+
+/* Defines the size, position, and font of the nutirional info container */
+.nutritional{
+    width: 450px;
+    height: auto;
+    position: absolute;
+    top: 15%;
+    left: 32%;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    text-align: center;
+}
+
+/* Defines the relative size of the nutitional information image */
+.nutritional img{
+  width: 100%;
+  height: auto;
+}
+
+/* Defines the size and position of the home icon container */
+.home{
+  width: 30px;
+  height: auto;
+  position: absolute;
+  top: 2%;
+  left: 1%;
+}
+
+/* Defines the relative size of the home icon */
+.home img{
+  width: 100%;
+  height: auto;
+}
+
+/* Defines the size, alignment, position, and font of the movie text */
+.mov-button{
+    width: 25%;
+    text-align:left;
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* Defines the size, alignment, position, and font of the philosophy text */
+.ph-button{
+    width: 25%;
+    text-align: left;
+    position: absolute;
+    top: 15%;
+    left: 1%;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* Defines the size, alignment, position, and font of the instructions text */
+.instr-button{
+    width: 25%;
+    text-align: left;
+    position: absolute;
+    top: 20%;
+    left: 1%;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* Defines the size, alignment, position, and font of the nutritional text */
+.nutr-button{
+    width: 25%;
+    text-align: left;
+    position: absolute;
+    top: 25%;
+    left: 1%;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}

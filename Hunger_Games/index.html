@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<meta charset="utf-8"/>
+
+		<meta name="viewport" content="width=device-width">
+
+		<!-- Allows us to use specific google fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Graduate|Rubik+Mono+One|Sedgwick+Ave|Poiret+One|Roboto+Mono:400,500" rel="stylesheet">
+
+		<title>Hunger Games</title>
+
+
+		<link rel="stylesheet" type="text/css" href="style.css" />
+
+
+
+	</head>
+
+	<body>
+				<!-- This div helps turn off the lights for the iframe -->
+				<div id="the-lights"></div>
+
+				<!-- The main container within which the the rest of the components exist -->
+        <div class="main-container">
+
+						<!-- The div with the logo displayed on the home page -->
+            <div class="main-logo">
+								<img src="hungergames.png">
+						</div>
+
+						<!-- The div with the "Hunger games" movie -->
+						<div class="full-movie">
+								<iframe width="640" height="360" src="https://www.youtube.com/embed/tmff-hXBf7E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+						</div>
+
+						<!-- Contains the clickable icon to turn off the lights -->
+						<div class="lights-off">
+							<img src="light.png">
+							turn off the lights
+						</div>
+
+						<!-- Contains the clickable icon to turn on the lights -->
+						<div class="lights-on">
+							<img src="light.png">
+							turn on the lights
+						</div>
+
+						<!-- The div containing text - the philosophy behind the project.
+						It also contains a gif which gives some indication of how
+						edgy the film is. -->
+            <div class="philosophy">
+								<h1> pHILOSOPHY </h1>
+								The human form is a paradox. We can survive
+								the coldest winters and hottest summers, and
+								yet, we cannot survive long without our life-
+								blood: potato chips. When Professor Protzel
+								and his team of psycho-filmologists approached
+								us to create a short film that encapsulated
+								the human condition, it seemed natural therefore
+								to explore the emotions surrounding the potato chip.
+								<br>
+								<br>
+								<br>
+                <img src="shantanu.gif">
+
+            </div>
+
+						<!-- This div contains instructions for a user who wishes to eat
+						potato chips but does not know how to  -->
+						<div class="how2eat">
+								<h1> eATING CHIPS </h1>
+								Step 1 - face the front of the packet <br><br>
+								Step 2 - align yourself with the sun <br><br>
+								Step 3 - use the "grip and rip" technique <br><br>
+								Step 4 - pick up one chip at a time using the thumb<br><br>
+												 and index finger <br><br>
+								Step 5 - consume and feel your soul fill with joy
+						</div>
+
+						<!-- This div contains nutritional data for those consumers who wish
+						to take care of their health -->
+						<div class="nutritional">
+							<h1> nUTRITIONAL FACTS </h1>
+							<img src="nutritional.png">
+						</div>
+
+						<!-- The home icon that takes the user back to the initial home screen -->
+            <div class="home" id="home">
+							<img src="home.png">
+						</div>
+
+						<!-- Clickable text that plays the movie -->
+            <div class="mov-button" id="mov-click">
+                    watch the movie
+            </div>
+
+						<!-- Clickable text that shows the project philosophy -->
+            <div class="ph-button" id="ph-click">
+                    project philosophy
+            </div>
+
+						<!-- Clickable text that displays the eating instructions -->
+            <div class="instr-button" id="instr-click">
+                    how 2 eat chips
+            </div>
+
+						<!-- Clickable text that displays the nutritional information  -->
+            <div class="nutr-button" id="nutr-click">
+                    health information
+            </div>
+
+        </div>
+
+		<!-- Allows us to use javascript, and specifically jquery  -->
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+		<script src="jQuery_script.js"></script>
+	</body>
+</html>

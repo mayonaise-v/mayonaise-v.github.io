@@ -1,0 +1,143 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Pangolin', cursive;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* Places the background gif behind all other material */
+html{
+    background: url(test1.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@-webkit-keyframes pulse {
+  25% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  75% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+}
+
+@keyframes pulse {
+  25% {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  75% {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+}
+
+.viz{
+  position: fixed;
+  top: 30%;
+  left: 43%;
+}
+.viz:hover{
+  content: url('viz-avatar-captain.png')
+}
+.head{
+  position: fixed;
+  top: 7%;
+  left: 30%;
+  font-size: 40px;
+}
+/* Establishes style rules, width, and margin for the largest container */
+.web {
+  position: fixed;
+  top: 23%;
+  left: 31%;
+}
+.web:hover {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.pool {
+  position: fixed;
+  top: 57%;
+  left: 32%;
+}
+.pool:hover {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.audio {
+  position: fixed;
+  top: 74%;
+  left: 48%;
+}
+.audio:hover {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.video {
+  position: fixed;
+  top: 57%;
+  left: 65%;
+}
+.video:hover {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.comic {
+  position: fixed;
+  top: 23%;
+  left: 67%;
+}
+.comic:hover {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+.thanks{
+  position: fixed;
+  left: 48%;
+  bottom: 3%;
+}
+.thanks a:link{
+  color: black;
+}

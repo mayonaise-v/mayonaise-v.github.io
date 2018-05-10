@@ -1,0 +1,30 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Pangolin', cursive;
+    font-size: 35px;
+}
+
+/* Places the background gif behind all other material */
+html{
+    background: url(test1.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.head{
+  position: fixed;
+  left: 45%;
+  top: 7%;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+.thanks{
+  position: fixed;
+  left: 30%;
+  top: 19%;
+  text-align: left;
+}
